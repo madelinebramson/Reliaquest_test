@@ -1,3 +1,5 @@
+package com.challenge.api.model;
+
 import com.challenge.api.model.FulltimeEmployee;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions;
@@ -30,6 +32,15 @@ public class FulltimeEmployeeTest {
         assertEquals("JaneDoe@company.com", employee.getEmail());
         assertEquals(hireDate, employee.getContractHireDate());
         assertEquals(terminationDate, employee.setContractTerminationDate());
+    }
+
+    @Test
+    void testFullName(){
+        FulltimeEmployee employee = new  FulltimeEmployee();
+        employee.setFirstName("John");
+        employee.setLastName("Doe");
+
+        assertEquals("John Doe", employee.getFullName);
     }
 
 }

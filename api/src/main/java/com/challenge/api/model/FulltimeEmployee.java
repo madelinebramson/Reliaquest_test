@@ -129,5 +129,4 @@ public class FulltimeEmployee implements Employee {
         String last = this.lastName != null ? this.lastName : "";
         this.fullName = (first + " " + last).trim();
     }
-    
 }

@@ -48,10 +48,15 @@ public class EmployeeService {
         }
 
         // If the email isnt given assume it is FirstnameLastname@company.com
-        if (newEmployee.getEmail() == null || newEmployee.getEmail().trim().isEmpty()){ // checks if no email is given or if the email field is given but the value is an empty string
+        if (newEmployee.getEmail() == null
+                || newEmployee
+                        .getEmail()
+                        .trim()
+                        .isEmpty()) { // checks if no email is given or if the email field is given but the value is an
+            // empty string
             String firstName = newEmployee.getFirstName() != null ? newEmployee.getFirstName() : "";
             String lastName = newEmployee.getLastName() != null ? newEmployee.getLastName() : "";
-            if (!firstName.isEmpty() || !lastName.isEmpty()){
+            if (!firstName.isEmpty() || !lastName.isEmpty()) {
                 newEmployee.setEmail(firstName + lastName + "@company.com");
             }
         }

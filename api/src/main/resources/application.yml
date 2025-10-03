@@ -2,3 +2,7 @@ spring.application.name: entry-level-java-challenge
 app:
     data:
         mock-employee-path: src/main/resources/mockData/mockData.json
+
+app:
+    data:
+        test-employee-path: src/main/resources/test-employees.json

@@ -1,0 +1,10 @@
+[
+  {
+    "uuid": "1371ff20-0da5-4409-9cd3-bdf060fad9e9",
+    "firstName": "Test",
+    "lastName": "User",
+    "salary": 50000,
+    "jobTitle": "Engineer",
+    "email": "test@company.com"
+  }
+]
