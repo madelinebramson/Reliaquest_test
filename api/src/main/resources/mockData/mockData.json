@@ -1,0 +1,63 @@
+[
+    {
+    "uuid": "1db1783f-bcf4-4e62-8934-97b12251d045",
+    "firstName": "Chris",
+    "lastName": "Mills",
+    "salary": 60000,
+    "age": 30,
+    "jobTitle": "Software Engineer",
+    "email": "ChrisMills@company.com",
+    "contractHireDate": "2020-01-15T09:00:00Z"
+    },
+    {
+    "uuid": "8e76cb5b-d490-40b0-9574-a9b68937054d",
+    "firstName": "Sharanya",
+    "lastName": "Jayaraman",
+    "salary": 75000,
+    "age": 28,
+    "jobTitle": "Product Manager",
+    "email": "SharanyaJayaraman@company.com", 
+    "contractHireDate": "2019-03-22T10:30:00Z"
+    },
+    {
+    "uuid": "6f1e82a3-e41d-4683-94cb-0bb244d0f95e",
+    "firstName": "Melina",
+    "lastName": "Myers",
+    "salary": 50000,
+    "age": 25,
+    "jobTitle": "UX Designer",
+    "email": "MelinaMyers@company.com",
+    "contractHireDate": "2021-06-01T08:45:00Z"
+    },
+    {
+    "uuid": "6c29bbf5-1fdb-4c51-a88f-b45feb8cff94",
+    "firstName": "Bob",
+    "lastName": "Myers",
+    "salary": 55000,
+    "age": 26,
+    "jobTitle": "QA Engineer",
+    "email": "BobMyers@company.com",
+    "contractHireDate": "2021-07-15T11:15:00Z"
+    },
+    {
+    "uuid": "8378ad61-0756-4a80-a188-dd436b02f2cc", 
+    "firstName": "Ann",
+    "lastName": "Tyson",
+    "salary": 65000,
+    "age": 32,
+    "jobTitle": "DevOps Engineer",
+    "email": "AnnTyson@company.com",
+    "contractHireDate": "2018-11-05T09:30:00Z",
+    "contractTerminationDate": "2023-12-31T23:59:59Z" 
+    },
+    {
+    "uuid": "143973cb-815f-42fd-9eac-4a845034c08e",
+    "firstName": "Sonia",
+    "lastName": "Haiduc",
+    "salary": 70000,
+    "age": 29,
+    "jobTitle": "Data Scientist",
+    "email": "SoniaHaiduc@company.com",
+    "contractHireDate": "2019-08-20T10:00:00Z"
+    }
+]
